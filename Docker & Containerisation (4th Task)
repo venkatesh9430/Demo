@@ -1,0 +1,69 @@
+web-app
+    i) index.html
+    ii) Dockerfile
+    iii) docker-compose.yml
+
+--> Dockerfile (Apache2)
+    i.e
+   
+FROM httpd:2.4
+
+# Copy custom index.html into the default html directory
+COPY index.html /usr/local/apache2/htdocs/
+
+EXPOSE 80
+
+
+--> docker-compose.yml
+i.e.
+
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: apache_web
+    ports:
+      - "8080:80"
+
+--> Dockerfile (NGINX)
+i.e
+
+
+FROM nginx:alpine
+
+# Copy custom index.html to default nginx html directory
+COPY index.html /usr/share/nginx/html/index.html
+
+EXPOSE 80
+
+--> docker-compose.yml
+i.e
+
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: nginx_web
+    ports:
+      - "8080:80"
+
+--> index.html
+i.e.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Web App</title>
+</head>
+<body>
+    <h1>Hello from Dockerized Web Server!</h1>
+</body>
+</html>
+
+
+--> cd web-app
+--> docker-compose up -d
+
+Open your browser and go to: http://localhost:8080
