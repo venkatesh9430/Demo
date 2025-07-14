@@ -11,12 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1752511982,,"wq"
+:q!
+|2,0,1752510853,,"q!"
 :q
 |2,0,1752510471,,"q"
-:q!
-|2,0,1752510467,,"q!"
-:wq
-|2,0,1752510454,,"wq"
 :Wq
 |2,0,1752494418,,"Wq"
 
@@ -30,241 +30,305 @@
 
 # Registers:
 ""-	CHAR	0
-	>
-|3,1,36,0,1,0,1752510461,">"
+	<
+|3,1,36,0,1,0,1752510849,"<"
 
 # File marks:
-'0  1  0  ~/index.html
-|4,48,1,0,1752510471,"~/index.html"
-'1  10  0  ~/index.html
-|4,49,10,0,1752510467,"~/index.html"
-'2  10  0  ~/index.html
-|4,50,10,0,1752510467,"~/index.html"
-'3  9  6  ~/index.html
-|4,51,9,6,1752510454,"~/index.html"
-'4  9  6  ~/index.html
-|4,52,9,6,1752510454,"~/index.html"
-'5  9  6  ~/index.html
-|4,53,9,6,1752510454,"~/index.html"
-'6  9  6  ~/index.html
-|4,54,9,6,1752510454,"~/index.html"
-'7  2  89  ~/inventory.ini
-|4,55,2,89,1752496609,"~/inventory.ini"
-'8  2  89  ~/inventory.ini
-|4,56,2,89,1752494420,"~/inventory.ini"
-'9  2  73  ~/inventory.ini
-|4,57,2,73,1752493858,"~/inventory.ini"
+'0  101  0  ~/main.tf
+|4,48,101,0,1752511982,"~/main.tf"
+'1  1  0  ~/Backup.sh
+|4,49,1,0,1752511716,"~/Backup.sh"
+'2  16  6  ~/monitor.sh
+|4,50,16,6,1752511562,"~/monitor.sh"
+'3  8  16  ~/Nginx/docker-compose.yml
+|4,51,8,16,1752511285,"~/Nginx/docker-compose.yml"
+'4  6  8  ~/Nginx/Dockerfile
+|4,52,6,8,1752511257,"~/Nginx/Dockerfile"
+'5  9  0  ~/Apache2/docker-compose.yml
+|4,53,9,0,1752511192,"~/Apache2/docker-compose.yml"
+'6  6  8  ~/Apache2/Dockerfile
+|4,54,6,8,1752511166,"~/Apache2/Dockerfile"
+'7  6  8  ~/Dockerfile
+|4,55,6,8,1752510978,"~/Dockerfile"
+'8  1  0  ~/index.html
+|4,56,1,0,1752510853,"~/index.html"
+'9  1  0  ~/index.html
+|4,57,1,0,1752510471,"~/index.html"
 
 # Jumplist (newest first):
--'  1  0  ~/index.html
-|4,39,1,0,1752510471,"~/index.html"
--'  10  0  ~/index.html
-|4,39,10,0,1752510467,"~/index.html"
--'  10  0  ~/index.html
-|4,39,10,0,1752510467,"~/index.html"
--'  9  6  ~/index.html
-|4,39,9,6,1752510459,"~/index.html"
--'  9  6  ~/index.html
-|4,39,9,6,1752510459,"~/index.html"
--'  9  6  ~/index.html
-|4,39,9,6,1752510454,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1752510423,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1752510423,"~/index.html"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752496609,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  89  ~/inventory.ini
-|4,39,2,89,1752494420,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  2  73  ~/inventory.ini
-|4,39,2,73,1752493858,"~/inventory.ini"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  78  0  ~/install_dependencies.yml
-|4,39,78,0,1752493721,"~/install_dependencies.yml"
--'  1  0  ~/install_dependencies.yml
-|4,39,1,0,1752493707,"~/install_dependencies.yml"
--'  1  0  ~/install_dependencies.yml
-|4,39,1,0,1752493707,"~/install_dependencies.yml"
--'  1  0  ~/install_dependencies.yml
-|4,39,1,0,1752493707,"~/install_dependencies.yml"
--'  1  0  ~/install_dependencies.yml
-|4,39,1,0,1752493707,"~/install_dependencies.yml"
+-'  101  0  ~/main.tf
+|4,39,101,0,1752511982,"~/main.tf"
+-'  1  0  ~/main.tf
+|4,39,1,0,1752511932,"~/main.tf"
+-'  1  0  ~/Backup.sh
+|4,39,1,0,1752511716,"~/Backup.sh"
+-'  1  0  ~/Backup.sh
+|4,39,1,0,1752511716,"~/Backup.sh"
+-'  16  6  ~/monitor.sh
+|4,39,16,6,1752511562,"~/monitor.sh"
+-'  16  6  ~/monitor.sh
+|4,39,16,6,1752511562,"~/monitor.sh"
+-'  16  6  ~/monitor.sh
+|4,39,16,6,1752511562,"~/monitor.sh"
+-'  16  6  ~/monitor.sh
+|4,39,16,6,1752511562,"~/monitor.sh"
+-'  1  0  ~/monitor.sh
+|4,39,1,0,1752511545,"~/monitor.sh"
+-'  1  0  ~/monitor.sh
+|4,39,1,0,1752511545,"~/monitor.sh"
+-'  1  0  ~/monitor.sh
+|4,39,1,0,1752511545,"~/monitor.sh"
+-'  1  0  ~/monitor.sh
+|4,39,1,0,1752511545,"~/monitor.sh"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  8  16  ~/Nginx/docker-compose.yml
+|4,39,8,16,1752511285,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  1  0  ~/Nginx/docker-compose.yml
+|4,39,1,0,1752511272,"~/Nginx/docker-compose.yml"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  6  8  ~/Nginx/Dockerfile
+|4,39,6,8,1752511257,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  1  0  ~/Nginx/Dockerfile
+|4,39,1,0,1752511252,"~/Nginx/Dockerfile"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  9  0  ~/Apache2/docker-compose.yml
+|4,39,9,0,1752511192,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
+-'  1  0  ~/Apache2/docker-compose.yml
+|4,39,1,0,1752511177,"~/Apache2/docker-compose.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/index.html
-	*	1752510468	0
+> ~/main.tf
+	*	1752511980	0
+	"	101	0
+	^	101	0
+	.	100	1
+	+	100	1
+
+> ~/Backup.sh
+	*	1752511715	0
 	"	1	0
-	^	10	0
-	.	9	9
+	^	1	1
+	.	1	0
+	+	5	96
+	+	4	27
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	4	0
+	+	1	0
+
+> ~/monitor.sh
+	*	1752511561	0
+	"	16	6
+	^	16	7
+	.	16	6
+	+	16	6
+
+> ~/Nginx/docker-compose.yml
+	*	1752511284	0
+	"	8	16
+	^	8	17
+	.	8	16
+	+	8	16
+
+> ~/Nginx/Dockerfile
+	*	1752511256	0
+	"	6	8
+	^	6	9
+	.	6	8
+	+	6	8
+
+> ~/Apache2/docker-compose.yml
+	*	1752511190	0
+	"	9	0
+	^	9	0
+	.	8	17
+	+	8	17
+
+> ~/Apache2/Dockerfile
+	*	1752511164	0
+	"	6	8
+	^	6	9
+	.	6	8
+	+	6	8
+
+> ~/Dockerfile
+	*	1752510977	0
+	"	6	8
+	^	6	9
+	.	6	8
+	+	6	8
+
+> ~/index.html
+	*	1752510851	0
+	"	1	0
+	^	1	0
+	.	1	0
 	+	9	9
+	+	1	0
 
 > ~/inventory.ini
 	*	1752496304	0
