@@ -1,0 +1,113 @@
+1) Install
+
+i)Apache2
+
+ii)MySQL
+
+iii)Docker
+
+2.Pulls a Docker image
+
+3.Runs the container with ephemeral storage (e.g., mounted to /mnt/ephemeral)
+
+
+--> vi config.yml
+
+i.e.
+
+---
+- name: Install Apache, MySQL, Docker and run a container with ephemeral storage
+  hosts: all
+  become: true
+
+  vars:
+    docker_image: "nginx:latest"  # You can change this to any image
+    container_name: "ephemeral_container"
+    ephemeral_mount: "/mnt/ephemeral"
+
+  tasks:
+
+    - name: Update APT cache
+      apt:
+        update_cache: yes
+
+    - name: Install Apache2
+      apt:
+        name: apache2
+        state: present
+
+    - name: Install MySQL Server
+      apt:
+        name: mysql-server
+        state: present
+
+    - name: Install prerequisites for Docker
+      apt:
+        name:
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - gnupg
+          - lsb-release
+        state: present
+
+    - name: Add Docker GPG key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker APT repository
+      apt_repository:
+        repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable
+        state: present
+        update_cache: yes
+
+    - name: Install Docker Engine
+      apt:
+        name: docker-ce
+        state: present
+
+    - name: Ensure Docker service is running
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Create ephemeral storage directory
+      file:
+        path: "{{ ephemeral_mount }}"
+        state: directory
+        mode: '0755'
+
+    - name: Pull Docker image
+      community.docker.docker_image:
+        name: "{{ docker_image }}"
+        source: pull
+
+    - name: Run Docker container with ephemeral volume
+      community.docker.docker_container:
+        name: "{{ container_name }}"
+        image: "{{ docker_image }}"
+        state: started
+        restart_policy: always
+        volumes:
+          - "{{ ephemeral_mount }}:/data"
+
+
+--> Ansible installed in the source machine
+--> we need to define the inventory.ini file
+i.e.
+
+[webservers]
+10.0.0.119(server private ip) ansible_user=ubuntu   ansible_ssh_private_key_file=/home/ubuntu/.ssh/id_ed25519(private kery)
+
+Note: 
+
+1st we need to generate ssh-keygen
+i) Add your new public key to authorized_keys
+   i.e.
+        cat ~/.ssh/id_ed25519.pub >> ~/.ssh/authorized_keys
+        chmod 600 ~/.ssh/authorized_keys
+--> Run the playbook
+i.e. 
+   ansible-playbook -i inventory.ini config.yml
