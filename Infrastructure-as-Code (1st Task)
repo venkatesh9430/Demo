@@ -1,0 +1,36 @@
+        +-------------------+
+        |   Amazon Route 53 |
+        +--------+----------+
+                 |
+        +--------v----------+
+        |  AWS API Gateway  |
+        +--------+----------+
+                 |
+        +--------v----------+
+        | AWS Lambda (API)  |
+        +--------+----------+
+                 |
+        +--------v----------+
+        |  Amazon DynamoDB  |  <- Scalable NoSQL DB
+        +-------------------+
+                 |
+        +-------------------+
+        |   Amazon S3       |  <- For media file storage
+        +--------+----------+
+                 |
+        +--------v----------+
+        |   CloudFront CDN  |  <- Low-latency delivery
+        +-------------------+
+
+        [Security Layer: IAM Roles, WAF, KMS Encryption]
+
+
+
+#For Deploy:
+
+#Place your Lambda code in index.js:
+     zip lambda_function.zip index.js
+#Initialize Terraform:
+    terraform init
+#Deploy:
+   terraform apply
